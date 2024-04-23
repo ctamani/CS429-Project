@@ -40,27 +40,26 @@ The system does not use external data sources, it's designed to crawl and index 
 
 
 <h2> Test Cases </h2>
-Test cases were implemented to validate the functionality of each component, including adding documents, processing queries, and handling edge cases and errors.
-
-Crawler:
-Purpose: Evaluate crawler behavior when crawling different websites.
-Framework: Scrapy testing framework.
-Harness: Scrapy test harness for spider-based tests.
-Coverage: Comprehensive testing of crawling behavior on different websites.
-
-Processor:
-Purpose: Validate the functionality of adding documents and processing queries.
-Test Steps: Send requests to add documents and query the system, then verify the responses.
-Framework: Python unittest framework.
-Harness: Flask's test client for simulating HTTP requests.
-Coverage: Ensures the processor handles document addition, query processing, and error cases correctly.
-
-Indexer:
-Purpose: Verify the functionality of adding documents, building the index, and performing searches.
-Test Steps: Add documents, build the index, and perform searches, then verify the results.
-Framework: Python unittest framework.
-Harness: Test environment for adding documents and building the index.
-Coverage: Testing document addition, index building, search functionality, and TF-IDF matrix accuracy.
+- Test cases were implemented to validate the functionality of each component, including adding documents, processing queries, and handling edge cases and errors.
+  - **Crawler:**
+    - **Purpose:** Evaluate crawler behavior when crawling different websites.
+    - **Framework:** Scrapy testing framework.
+    - **Harness:** Scrapy test harness for spider-based tests.
+    - **Coverage:** Comprehensive testing of crawling behavior on different websites.
+  
+  - **Processor:**
+    - **Purpose:** Validate the functionality of adding documents and processing queries.
+    - **Test Steps:** Send requests to add documents and query the system, then verify the responses.
+    - **Framework:** Python unittest framework.
+    - **Harness:** Flask's test client for simulating HTTP requests.
+    - **Coverage:** Ensures the processor handles document addition, query processing, and error cases correctly.
+  
+  - **Indexer:**
+    - **Purpose:** Verify the functionality of adding documents, building the index, and performing searches.
+    - **Test Steps:** Add documents, build the index, and perform searches, then verify the results.
+    - **Framework:** Python unittest framework.
+    - **Harness:** Test environment for adding documents and building the index.
+    - **Coverage:** Testing document addition, index building, search functionality, and TF-IDF matrix accuracy.
 
 <h2> Source Code </h2>
 The source code for this project was produced using OpenAI's ChatGPT model.
