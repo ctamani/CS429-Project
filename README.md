@@ -41,6 +41,7 @@ The system does not use external data sources, it's designed to crawl and index 
 
 <h2> Test Cases </h2>
 - Test cases were implemented to validate the functionality of each component, including adding documents, processing queries, and handling edge cases and errors.
+
   - **Crawler:**
     - **Purpose:** Evaluate crawler behavior when crawling different websites.
     - **Framework:** Scrapy testing framework.
